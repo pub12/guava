@@ -1,0 +1,25 @@
+
+{% extends "test_base.html" %} 
+
+{% block main_header %}Test Groups{% endblock %}
+
+
+{% block body_content %}
+        
+<form name="myForm" action="test_form"  method="post"  >
+  Name: <input type="text" name="username">
+  Pwd: <input type="password" name="password">
+  <button type="submit">Submitter</button>  
+</form>
+{% endblock %}
+
+
+{% block page_script %}
+
+   
+ 
+ 
+    <script type="module" src="/webui/static/zwc/wc_all.js"></script> 
+ 
+
+{% endblock %}

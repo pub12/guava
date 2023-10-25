@@ -1,0 +1,29 @@
+
+{% extends "test_base.html" %} 
+
+{% block main_header %}Test Groups{% endblock %}
+
+
+{% block body_content %}
+        <ul>
+            {% for key,route in routes.items() %}
+                <li>
+                    <a href="{{key}}">{{key}} => {{route.functionName}} </a>{{route.methods }}
+                </li>
+            {% endfor %}
+        </ul>
+{% endblock %}
+
+
+{% block page_script %}
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+       
+    });
+
+  </script>
+  <script type="module" src="/webui/static/zwc/wc_all.js"></script>  
+
+
+{% endblock %}
