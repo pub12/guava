@@ -1,4 +1,0 @@
-dist/*
-poetry.lock
-tests/test.db
-tests/test_log.txt
