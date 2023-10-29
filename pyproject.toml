@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "guava"
+name = "mangoseen"
 version = "0.1.0"
 description = "Web widgets"
 authors = ["pub12 <pubudu79@gmail.com>"]
